@@ -17,7 +17,7 @@ const Header: React.FC = () => {
       </div>
       
       <div className="flex items-center space-x-2">
-        <span className="text-sm text-muted-foreground">
+        <span className="hidden md:inline text-muted-foreground">
           Welcome, {user?.name}
         </span>
         
